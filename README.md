@@ -1,4 +1,4 @@
-![alt tag](/c_booster/asset/c_booster_logo.png?raw=true "Kognizant Source")
+![alt tag](/asset/c_booster_logo.png?raw=true "Kognizant Source")
 
 # C Booster
 
