@@ -6,7 +6,7 @@
 right now. I add things here and there when I have time and the interest.
 This is NOT for PRODUCTION use.*
 
-A collection of generic C data structures and algorithms.
+A collection of tested, legible, and generic C data structures and algorithms.
 
 Data structures provide building blocks for more robust C applications. Headers
 and implementations are designed to be easy to use as well as read so that they
