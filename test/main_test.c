@@ -1,4 +1,5 @@
 #include "bit_helper_test.h"
+#include "heap_helper_test.h"
 #include "chained_hash_table_test.h"
 #include "circular_buffer_test.h"
 #include "doubly_linked_list_test.h"
@@ -34,9 +35,11 @@ int main(void)
 
   // helpers
   int bit_helper_failed = run_test_suite(create_bit_helper_test_suite());
+  int heap_helper_failed = run_test_suite(create_heap_helper_test_suite());
 
   int failed = 
     linked_list_failed + 
+    heap_helper_failed + 
     chained_hash_table_failed + 
     circular_buffer_failed + 
     stack_failed +

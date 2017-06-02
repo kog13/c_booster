@@ -31,9 +31,9 @@ int compare_float(void* left, void* right)
   float* left_value = (float*)left;
   float* right_value = (float*)right;
 
-  if (*left_value < *right) {
+  if (*left_value < *right_value) {
     return -1;
-  } else if (*left_value > *right) {
+  } else if (*left_value > *right_value) {
     return 1;
   } else {
     return 0;
